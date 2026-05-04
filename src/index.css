@@ -1,0 +1,54 @@
+:root {
+  --saffron: #FF6B00;
+  --saffron-light: #FF8C38;
+  --saffron-pale: #FFF3E8;
+  --green: #1A7A4A;
+  --green-light: #22A060;
+  --green-pale: #E8F7EF;
+  --navy: #0D1B2A;
+  --navy-soft: #1C2E42;
+  --gold: #D4A017;
+  --cream: #FDFAF5;
+  --white: #FFFFFF;
+  --gray-100: #F5F5F0;
+  --gray-200: #E8E8E0;
+  --gray-400: #9A9A8A;
+  --gray-600: #5A5A4A;
+  --shadow-sm: 0 2px 8px rgba(13,27,42,0.08);
+  --shadow-md: 0 4px 20px rgba(13,27,42,0.12);
+  --shadow-lg: 0 8px 40px rgba(13,27,42,0.16);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: var(--cream);
+  color: var(--navy);
+  min-height: 100vh;
+}
+
+h1, h2, h3 {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.hindi-text {
+  font-family: 'Tiro Devanagari Hindi', serif;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--gray-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--saffron-light);
+  border-radius: 3px;
+}
